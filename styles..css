@@ -1,0 +1,106 @@
+/* Resetowanie domyślnych stylów przeglądarki */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Zmienione na czarne tło */
+    color: white; /* Zmienione na biały kolor tekstu */
+    line-height: 1.6;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #3e3e3e;
+    color: #a0e8f0;
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Ustawienie pozycji na relatywną */
+    margin-top: 20px;
+}
+
+header img {
+    max-width: 200px; /* Maksymalna szerokość obrazka */
+    height: auto; /* Zachowanie proporcji obrazka */
+    position: absolute; /* Ustawienie pozycji na absolutną */
+    top: 20px; /* Odległość od góry w pikselach */
+    right: 80px; /* Odległość od prawej strony w pikselach */
+}
+
+
+#job-title {
+    color: #ffffff;
+    
+}
+
+
+#o-mnie {
+
+   line-height: 1.6;
+
+}
+#CV{
+    color: #d1d0d0;
+    font-size: 50px;
+    text-decoration: dotted;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #525252;
+    padding: 10px;
+    margin: 0; /* Usunięcie marginesu */
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    justify-content: left;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333
+    
+}
+
+section {
+    line-height: 1.6; /* Przykład ustawienia odstępu między wierszami w sekcji */
+}
+
+section p {
+    /* Jeśli chcesz zmienić odstęp tylko w paragrafach w sekcji */
+    line-height: 2; /* Przykład ustawienia odstępu między wierszami w paragrafach w sekcji */
+}
+
+section h2 {
+    color: #333;
+    
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+p {
+    color: #555;
+}
+
+footer {
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
